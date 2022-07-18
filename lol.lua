@@ -1,4 +1,6 @@
 getgenv().Notification = false
+getgenv().Fling = true
+getgenv().Velocity = -30
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CenteredSniper/Kenzen/master/newnetlessreanimate.lua",true))()
 local Fling = game.Players.LocalPlayer.Character[game.Players.LocalPlayer.Name].HumanoidRootPart
 local SelectionBox = Instance.new("SelectionBox")
